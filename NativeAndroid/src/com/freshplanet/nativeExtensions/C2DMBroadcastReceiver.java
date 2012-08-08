@@ -197,9 +197,9 @@ public class C2DMBroadcastReceiver extends BroadcastReceiver {
 			contentView.setTextViewText(customLayoutDescription, contentText);
 
 			contentView.setTextColor(customLayoutTitle, notification_text_color);
-			contentView.setFloat(customLayoutTitle, "setTextSize", notification_text_size);
+			contentView.setFloat(customLayoutTitle, "setTextSize", notification_title_size_factor*notification_text_size);
 			contentView.setTextColor(customLayoutDescription, notification_text_color);
-			contentView.setFloat(customLayoutDescription, "setTextSize", notification_text_size);
+			contentView.setFloat(customLayoutDescription, "setTextSize", notification_description_size_factor*notification_text_size);
 
 			
 			if (facebookId != null)
@@ -207,7 +207,7 @@ public class C2DMBroadcastReceiver extends BroadcastReceiver {
 				Log.d(TAG, "bitmap not null");
 				CreateNotificationTask cNT = new CreateNotificationTask();
 				cNT.setParams(customLayoutImageContainer, NotifId, nm, notification, contentView);
-				String src = "http://graph.facebook.com/"+facebookId+"/picture";
+				String src = "http://graph.facebook.com/"+facebookId+"/picture?type=normal";
 				URL url = new URL(src);
 				cNT.execute(url);
 			} else
@@ -233,7 +233,9 @@ public class C2DMBroadcastReceiver extends BroadcastReceiver {
 	
 	
 	private static Integer notification_text_color = null;
-	private static float notification_text_size = 11;
+	private static float notification_text_size;
+	private static float notification_title_size_factor = (float) 1.0;
+	private static float notification_description_size_factor = (float) 0.8;
 	private static final String COLOR_SEARCH_RECURSE_TIP = "SOME_SAMPLE_TEXT";
 
 	private boolean recurseGroup(Context context, ViewGroup gp)
