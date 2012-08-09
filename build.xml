@@ -33,7 +33,7 @@
 	</target>	
 
 	<target name="iOSClean" depends="init">
-		<exec executable="xcodebuild" dir="NativeIOS" 
+		<exec executable="xcodebuild" dir="NativeIOS4.0" 
 			failonerror="true">
 		        
 			<arg line="-project ${iosProjectName.xcodeproj}"/>
@@ -43,10 +43,10 @@
 	</target>	
 
 	<target name="iOSCompile" depends="iOSClean">
-		<exec executable="xcodebuild" dir="NativeIOS" 
+		<exec executable="xcodebuild" dir="NativeIOS4.0" 
 			failonerror="true"> 
 			<arg line="-project ${iosProjectName.xcodeproj}"/>
-			<arg line="-sdk iphoneos4.3"/>
+			<arg line="-sdk iphoneos4.0"/>
 			<arg line="-alltargets" />
 			<arg line="-configuration Release" />
 		            
