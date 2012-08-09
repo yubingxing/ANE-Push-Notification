@@ -25,6 +25,7 @@ import android.widget.RemoteViews;
 import android.widget.TextView;
 
 import com.adobe.fre.FREContext;
+import com.distriqt.extension.util.Resources;
 
 public class LocalNotificationService extends Service {
 
@@ -72,23 +73,15 @@ public class LocalNotificationService extends Service {
 	
 	private static int NotifId = 1;
 	
-	private void registerResources(FREContext freContext)
+	private void registerResources(Context context)
 	{
-		Log.d(TAG, "icon status");
-		notificationIcon = freContext.getResourceId("drawable.icon_status");
-		Log.d(TAG, "layout.notification");
-		customLayout = freContext.getResourceId("layout.notification");
-		Log.d(TAG, "title");
-		customLayoutTitle = freContext.getResourceId("id.title");
-		Log.d(TAG, "text");
-		customLayoutDescription = freContext.getResourceId("id.text");
-		Log.d(TAG, "image");
-		customLayoutImageContainer = freContext.getResourceId("id.image");
-		Log.d(TAG, "icon");
-		customLayoutImage = freContext.getResourceId("drawable.app_icon");
+		notificationIcon = Resources.getResourseIdByName(context.getPackageName(), "drawable", "icon_status");
+		customLayout = Resources.getResourseIdByName(context.getPackageName(), "layout", "notification");
+		customLayoutTitle = Resources.getResourseIdByName(context.getPackageName(), "id", "title");
+		customLayoutDescription = Resources.getResourseIdByName(context.getPackageName(), "id", "text");
+		customLayoutImageContainer = Resources.getResourseIdByName(context.getPackageName(), "id", "image");
+		customLayoutImage = Resources.getResourseIdByName(context.getPackageName(), "drawable", "app_icon");
 	}
-
-	
 	
 	
 	/**
@@ -99,16 +92,13 @@ public class LocalNotificationService extends Service {
 	public void handleMessage(Context context, Intent intent) {
 		try {
 			
-			FREContext ctxt = C2DMExtension.context;
-			if (ctxt != null)
-			{
-				Log.d("LocalNService", "registering resources");
-				registerResources(ctxt);
-			}
+			Log.d("LocalNService", "registering resources");
+			registerResources(context);
 			
 			Log.d("LocalNService", "extract colors");
-
 			extractColors(context);
+			
+			FREContext ctxt = C2DMExtension.context;
 			
 			NotificationManager nm = (NotificationManager) context
 					.getSystemService(Context.NOTIFICATION_SERVICE);

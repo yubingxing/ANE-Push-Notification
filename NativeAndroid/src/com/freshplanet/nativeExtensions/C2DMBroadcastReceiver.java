@@ -38,6 +38,7 @@ import android.widget.RemoteViews;
 import android.widget.TextView;
 
 import com.adobe.fre.FREContext;
+import com.distriqt.extension.util.Resources;
 
 public class C2DMBroadcastReceiver extends BroadcastReceiver {
 
@@ -114,14 +115,14 @@ public class C2DMBroadcastReceiver extends BroadcastReceiver {
 	
 	private static int NotifId = 1;
 		
-	public static void registerResources(FREContext freContext)
+	public static void registerResources(Context context)
 	{
-		notificationIcon = freContext.getResourceId("drawable.icon_status");
-		customLayout = freContext.getResourceId("layout.notification");
-		customLayoutTitle = freContext.getResourceId("id.title");
-		customLayoutDescription = freContext.getResourceId("id.text");
-		customLayoutImageContainer = freContext.getResourceId("id.image");
-		customLayoutImage = freContext.getResourceId("drawable.app_icon");
+		notificationIcon = Resources.getResourseIdByName(context.getPackageName(), "drawable", "icon_status");
+		customLayout = Resources.getResourseIdByName(context.getPackageName(), "layout", "notification");
+		customLayoutTitle = Resources.getResourseIdByName(context.getPackageName(), "id", "title");
+		customLayoutDescription = Resources.getResourseIdByName(context.getPackageName(), "id", "text");
+		customLayoutImageContainer = Resources.getResourseIdByName(context.getPackageName(), "id", "image");
+		customLayoutImage = Resources.getResourseIdByName(context.getPackageName(), "drawable", "app_icon");
 	}
 	
 	
@@ -132,14 +133,10 @@ public class C2DMBroadcastReceiver extends BroadcastReceiver {
 	 */
 	public void handleMessage(Context context, Intent intent) {
 		try {
+			registerResources(context);
+			extractColors(context);
 			
 			FREContext ctxt = C2DMExtension.context;
-			if (ctxt != null)
-			{
-				registerResources(ctxt);
-			}
-			
-			extractColors(context);
 			
 			NotificationManager nm = (NotificationManager) context
 					.getSystemService(Context.NOTIFICATION_SERVICE);
