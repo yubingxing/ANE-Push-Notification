@@ -1,15 +1,11 @@
 TAirPushNotification
 v7
 r0
-t366772752.480235
+t367492770.831037
 cCheck dependencies
-cProcessPCH /var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification_Prefix-cqzzjqnthcejpqfambxxymsffkmc/AirPushNotification_Prefix.pch.gch AirPushNotification_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
 cProcessPCH /var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification_Prefix-fjxegkgtcgirilbqphvsyayzjpxh/AirPushNotification_Prefix.pch.gch AirPushNotification_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv6/AirPushNotification.o /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.o /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLibtool /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv6/libAirPushNotification.a normal armv6
-cLibtool /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/libAirPushNotification.a normal armv7
-cCreateUniversalBinary /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos/libAirPushNotification.a normal "armv6 armv7"
+cLibtool /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos/libAirPushNotification.a normal armv7
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
 c000000004C6DE9E30000000000000110
@@ -95,64 +91,30 @@ t1340714976
 s19796
 i<stdint.h>
 
-N/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv6/AirPushNotification.LinkFileList
-c00000000502C4A8E00000000000000C5
-t1345079950
-s197
-
-N/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv6/AirPushNotification.o
-t1345079952
-s29068
-
-N/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv6/libAirPushNotification.a
-t1345079952
-s29912
-
 N/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.LinkFileList
-c00000000502C4A8E00000000000000C5
-t1345079950
+c000000005037472000000000000000C5
+t1345799968
 s197
 
 N/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.o
-t1345079952
+t1345799970
 s28816
 
-N/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/libAirPushNotification.a
-t1345079952
+N/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos/libAirPushNotification.a
+t1345799970
 s29656
 
-N/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos/libAirPushNotification.a
-t1345079952
-s59616
-
-N/var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification_Prefix-cqzzjqnthcejpqfambxxymsffkmc/AirPushNotification_Prefix.pch.gch
-t1345079951
-s6560324
-
 N/var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification_Prefix-fjxegkgtcgirilbqphvsyayzjpxh/AirPushNotification_Prefix.pch.gch
-t1345079951
+t1345799969
 s7019076
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies366772750#366772750#0(0"0(0#1#0"4305890304#0"0#
-
-CCompileC build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv6/AirPushNotification.o /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s366772751.899408
-e366772752.442753
-r1
-xCompileC
-xbuild/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv6/AirPushNotification.o
-x/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@108"Compile /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification.m366772751#366772752#0(0"0(0#0#100"/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification.m168#2488"    cd /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-generated-files.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-own-target-headers.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-all-target-headers.hmap -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-project-headers.hmap -F/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos/include -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/DerivedSources/armv6 -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/DerivedSources -include /var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification_Prefix-cqzzjqnthcejpqfambxxymsffkmc/AirPushNotification_Prefix.pch -c /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification.m -o /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv6/AirPushNotification.o0#
+lSLF07#2@18"Check dependencies367492768#367492768#0(0"0(0#1#0"4389052672#0"0#
 
 CCompileC build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.o /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s366772751.900206
-e366772752.443958
+s367492770.157138
+e367492770.783428
 r1
 xCompileC
 xbuild/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.o
@@ -161,56 +123,22 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@108"Compile /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification.m366772751#366772752#0(0"0(0#0#100"/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification.m168#2488"    cd /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-generated-files.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-own-target-headers.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-all-target-headers.hmap -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-project-headers.hmap -F/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos/include -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/DerivedSources/armv7 -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/DerivedSources -include /var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification_Prefix-fjxegkgtcgirilbqphvsyayzjpxh/AirPushNotification_Prefix.pch -c /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification.m -o /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.o0#
+lSLF07#2@108"Compile /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification.m367492770#367492770#0(0"0(0#0#100"/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification.m168#2488"    cd /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-generated-files.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-own-target-headers.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-all-target-headers.hmap -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-project-headers.hmap -F/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos/include -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/DerivedSources/armv7 -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/DerivedSources -include /var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification_Prefix-fjxegkgtcgirilbqphvsyayzjpxh/AirPushNotification_Prefix.pch -c /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification.m -o /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.o0#
 
-CCreateUniversalBinary /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos/libAirPushNotification.a normal "armv6 armv7"
-s366772752.469809
-e366772752.480042
+CLibtool /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos/libAirPushNotification.a normal armv7
+s367492770.783624
+e367492770.830813
 r1
-xCreateUniversalBinary
+xLibtool
 x/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos/libAirPushNotification.a
-xnormal
-xarmv6 armv7
-lSLF07#2@90"CreateUniversalBinary build/Release-iphoneos/libAirPushNotification.a normal "armv6 armv7"366772752#366772752#0(0"0(0#0#90"/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/armv6 armv74392888320#877"    cd /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv6/libAirPushNotification.a /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/libAirPushNotification.a -o /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos/libAirPushNotification.a0#
-
-CLibtool /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv6/libAirPushNotification.a normal armv6
-s366772752.443061
-e366772752.468839
-r1
-xLibtool
-x/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv6/libAirPushNotification.a
-xnormal
-xarmv6
-o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF07#2@141"Libtool build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv6/libAirPushNotification.a normal armv6366772752#366772752#0(129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 0(0#0#0"168#1080"    cd /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos -filelist /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv6/AirPushNotification.LinkFileList -ObjC -framework Foundation -framework CoreMotion -framework UIKit -o /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv6/libAirPushNotification.a0#
-
-CLibtool /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/libAirPushNotification.a normal armv7
-s366772752.444133
-e366772752.469708
-r1
-xLibtool
-x/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/libAirPushNotification.a
 xnormal
 xarmv7
 o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF07#2@141"Libtool build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/libAirPushNotification.a normal armv7366772752#366772752#0(129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 0(0#0#0"168#1080"    cd /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos -filelist /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.LinkFileList -ObjC -framework Foundation -framework CoreMotion -framework UIKit -o /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/libAirPushNotification.a0#
-
-CProcessPCH /var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification_Prefix-cqzzjqnthcejpqfambxxymsffkmc/AirPushNotification_Prefix.pch.gch AirPushNotification_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s366772750.446430
-e366772751.794876
-r1
-xProcessPCH
-x/var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification_Prefix-cqzzjqnthcejpqfambxxymsffkmc/AirPushNotification_Prefix.pch.gch
-xAirPushNotification_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@41"Precompile AirPushNotification_Prefix.pch366772750#366772751#0(0"0(0#0#109"/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification_Prefix.pch4396742912#2302"    cd /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-generated-files.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-own-target-headers.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-all-target-headers.hmap -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-project-headers.hmap -F/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos/include -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/DerivedSources/armv6 -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/DerivedSources -c /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification_Prefix.pch -o /var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification_Prefix-cqzzjqnthcejpqfambxxymsffkmc/AirPushNotification_Prefix.pch.gch0#
+lSLF07#2@68"Libtool build/Release-iphoneos/libAirPushNotification.a normal armv7367492770#367492770#0(129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 0(0#0#0"168#1007"    cd /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos -filelist /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.LinkFileList -ObjC -framework Foundation -framework CoreMotion -framework UIKit -o /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos/libAirPushNotification.a0#
 
 CProcessPCH /var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification_Prefix-fjxegkgtcgirilbqphvsyayzjpxh/AirPushNotification_Prefix.pch.gch AirPushNotification_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s366772750.479896
-e366772751.899316
+s367492768.861919
+e367492770.156936
 r1
 xProcessPCH
 x/var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification_Prefix-fjxegkgtcgirilbqphvsyayzjpxh/AirPushNotification_Prefix.pch.gch
@@ -219,5 +147,5 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@41"Precompile AirPushNotification_Prefix.pch366772750#366772751#0(0"0(0#0#109"/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification_Prefix.pch168#2302"    cd /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-generated-files.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-own-target-headers.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-all-target-headers.hmap -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-project-headers.hmap -F/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos/include -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/DerivedSources/armv7 -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/DerivedSources -c /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification_Prefix.pch -o /var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification_Prefix-fjxegkgtcgirilbqphvsyayzjpxh/AirPushNotification_Prefix.pch.gch0#
+lSLF07#2@41"Precompile AirPushNotification_Prefix.pch367492768#367492770#0(0"0(0#0#109"/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification_Prefix.pch4391211520#2302"    cd /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/sw/bin:/sw/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11R6/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-generated-files.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-own-target-headers.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-all-target-headers.hmap -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-project-headers.hmap -F/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/Release-iphoneos/include -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/DerivedSources/armv7 -I/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/DerivedSources -c /Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification/NativeIOS4.0/AirPushNotification_Prefix.pch -o /var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification_Prefix-fjxegkgtcgirilbqphvsyayzjpxh/AirPushNotification_Prefix.pch.gch0#
 
