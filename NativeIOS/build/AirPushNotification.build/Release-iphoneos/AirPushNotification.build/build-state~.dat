@@ -1,0 +1,145 @@
+TAirPushNotification
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/t9/3kw74cx14nv2xg9tgmx9m1jc0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification-Prefix-hcfjixodejspyrbojjszzlrnwnpj/AirPushNotification-Prefix.pch.gch AirPushNotification/AirPushNotification-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.o /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/AirPushNotification/AirPushNotification.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLibtool /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/Release-iphoneos/libAirPushNotification.a normal armv7
+
+N/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/include/FlashRuntimeExtensions.h
+c000000004F98221D0000000000004FCB
+t1335370269
+s20427
+i<stdint.h>
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c000000004FFFEE000000000000000132
+t1342172672
+s306
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050006F5700000000003135F0
+t1342205783
+s3225072
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050006F5700000000000015F7
+t1342205783
+s5623
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAlertView.h
+c0000000050006F5D0000000000001B04
+t1342205789
+s6916
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h
+c0000000050006F5D000000000000567A
+t1342205789
+s22138
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000050006F5E0000000000000E8D
+t1342205790
+s3725
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050006F5F00000000008C0730
+t1342205791
+s9176880
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/objc/message.h
+c0000000050006F7800000000000023DB
+t1342205816
+s9179
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/objc/runtime.h
+c0000000050006F78000000000000672A
+t1342205816
+s26410
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/stdint.h
+c0000000050006F7A00000000000018EF
+t1342205818
+s6383
+
+N/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/AirPushNotification/AirPushNotification-Prefix.pch
+c00000000501BEDF200000000000003FA
+t1344007666
+s1018
+i<Foundation/Foundation.h>
+
+N/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/AirPushNotification/AirPushNotification.h
+c00000000501BEDF200000000000008C5
+t1344007666
+s2245
+i<UIKit/UIKit.h>
+
+N/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/AirPushNotification/AirPushNotification.m
+c00000000501BEDF200000000000025AF
+t1344007666
+s9647
+i"FlashRuntimeExtensions.h"
+i<UIKit/UIApplication.h>
+i<UIKit/UIAlertView.h>
+i"AirPushNotification.h"
+i<objc/runtime.h>
+i<objc/message.h>
+
+N/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.LinkFileList
+c000000005024434A00000000000000B7
+t1344553802
+s183
+
+N/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.o
+t2
+s0
+
+N/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/Release-iphoneos/libAirPushNotification.a
+t2
+s0
+
+N/var/folders/t9/3kw74cx14nv2xg9tgmx9m1jc0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification-Prefix-hcfjixodejspyrbojjszzlrnwnpj/AirPushNotification-Prefix.pch.gch
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa9881bca7ad4b541^80f138ca7ad4b541^---0#1#0#--18"Check dependencies36"C420E2FE-1965-487C-9422-16E177F3311B-
+
+CCompileC build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.o /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/AirPushNotification/AirPushNotification.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s366246602.631265
+e366246602.859014
+r1
+xCompileC
+xbuild/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.o
+x/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/AirPushNotification/AirPushNotification.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/AirPushNotification/AirPushNotification.m6fbaa1ca7ad4b541^eee8dbca7ad4b541^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/AirPushNotification/AirPushNotification.m0000000000000000^3042"CompileC build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.o AirPushNotification/AirPushNotification.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wunused-variable -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-generated-files.hmap -I/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-own-target-headers.hmap -I/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-all-target-headers.hmap -iquote /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-project-headers.hmap -I/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/Release-iphoneos/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/DerivedSources/armv7 -I/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/DerivedSources -F/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/Release-iphoneos -include /var/folders/t9/3kw74cx14nv2xg9tgmx9m1jc0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification-Prefix-hcfjixodejspyrbojjszzlrnwnpj/AirPushNotification-Prefix.pch -c /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/AirPushNotification/AirPushNotification.m -o /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.o36"4BD1328F-CE17-41B5-A394-B5FA3FF6ED0A-
+
+CLibtool /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/Release-iphoneos/libAirPushNotification.a normal armv7
+s366246602.865789
+e366246602.873690
+r1
+xLibtool
+x/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/Release-iphoneos/libAirPushNotification.a
+xnormal
+xarmv7
+o/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Libtool build/Release-iphoneos/libAirPushNotification.a normal armv776c0ddca7ad4b541^06bddfca7ad4b541^-165"/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1135"Libtool build/Release-iphoneos/libAirPushNotification.a normal armv7    cd /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/Release-iphoneos -filelist /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/Objects-normal/armv7/AirPushNotification.LinkFileList -ObjC -framework UIKit -framework Foundation -o /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/Release-iphoneos/libAirPushNotification.a36"24329B08-44F9-44B6-8FBA-2E86981FEF26-
+
+CProcessPCH /var/folders/t9/3kw74cx14nv2xg9tgmx9m1jc0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification-Prefix-hcfjixodejspyrbojjszzlrnwnpj/AirPushNotification-Prefix.pch.gch AirPushNotification/AirPushNotification-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s366246602.226741
+e366246602.624597
+r1
+xProcessPCH
+x/var/folders/t9/3kw74cx14nv2xg9tgmx9m1jc0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification-Prefix-hcfjixodejspyrbojjszzlrnwnpj/AirPushNotification-Prefix.pch.gch
+xAirPushNotification/AirPushNotification-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Precompile AirPushNotification/AirPushNotification-Prefix.pch09363aca7ad4b541^04e89fca7ad4b541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/AirPushNotification/AirPushNotification-Prefix.pch0000000000000000^2948"ProcessPCH /var/folders/t9/3kw74cx14nv2xg9tgmx9m1jc0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification-Prefix-hcfjixodejspyrbojjszzlrnwnpj/AirPushNotification-Prefix.pch.gch AirPushNotification/AirPushNotification-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wunused-variable -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-generated-files.hmap -I/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-own-target-headers.hmap -I/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-all-target-headers.hmap -iquote /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/AirPushNotification-project-headers.hmap -I/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/Release-iphoneos/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/DerivedSources/armv7 -I/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/AirPushNotification.build/Release-iphoneos/AirPushNotification.build/DerivedSources -F/Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/build/Release-iphoneos -c /Users/alex/Projects/Freshplanet/ANE-Push-Notification/NativeIOS/AirPushNotification/AirPushNotification-Prefix.pch -o /var/folders/t9/3kw74cx14nv2xg9tgmx9m1jc0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirPushNotification-Prefix-hcfjixodejspyrbojjszzlrnwnpj/AirPushNotification-Prefix.pch.gch36"6A66F863-8AEE-453D-A529-56C867E353D1-
+

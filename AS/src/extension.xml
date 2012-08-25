@@ -17,6 +17,7 @@
             <applicationDeployment>
                 <nativeLibrary>libAirPushNotification.a</nativeLibrary>
                 <initializer>AirPushExtInitializer</initializer> 
+		<finalizer>AirPushExtFinalizer</finalizer>
             </applicationDeployment>
     </platform>
     <platform name="Android-ARM"> 

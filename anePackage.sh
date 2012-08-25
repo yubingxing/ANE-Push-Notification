@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # MAIN PARAMS
-adt_directory="/Applications/Adobe Flash Builder 4.6/sdks/4.6.0_AIR3.3/bin"
+adt_directory="/Applications/Adobe Flash Builder 4.6/sdks/4.6.0_AIR3.4/bin"
 root_directory="/Users/letang/Documents/Flash_workspace/ane/ANE-Push-Notification"
 dest_ANE=Binaries/PushNotification.ane
 
@@ -13,9 +13,9 @@ library_SWC=${library_directory}/bin/AirPushNotification.swc
 
 # IOS PARAMS
 ios_build_directory=${root_directory}/Binaries/iOS
-ios_platform_OPTIONS=${root_directory}/NativeIOS4.0/platform.xml
+ios_platform_OPTIONS=${root_directory}/NativeIOS/platform.xml
 ios_build_name="libAirPushNotification.a"
-ios_native_directory=${root_directory}/NativeIOS4.0/build/Release-iphoneos/
+ios_native_directory=${root_directory}/NativeIOS/build/Release-iphoneos/
 
 # ANDROID PARAMS
 android_build_directory=${root_directory}/Binaries/Android

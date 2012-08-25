@@ -244,8 +244,6 @@ void AirPushContextFinalizer(FREContext ctx) {
     NSLog(@"Exiting ContextFinalizer()");	
 }
 
-
-
 // AirPushExtInitializer()
 //
 // The extension initializer is called the first time the ActionScript side of the extension
@@ -261,4 +259,8 @@ void AirPushExtInitializer(void** extDataToSet, FREContextInitializer* ctxInitia
 	*ctxFinalizerToSet = &AirPushContextFinalizer;
     
     NSLog(@"Exiting ExtInitializer()"); 
+}
+
+void AirPushExtFinalizer(void* extData) {
+    return;
 }
